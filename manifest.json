@@ -1,8 +1,8 @@
 {
 "manifest_version": 2,
 
-"name": "BUTTON",
-"description": "BUTTON WILL APPEAR",
+"name": "DBS BUTTON",
+"description": "THIS WILL GIVE YA A BUTTON LELEL",
 "version": "1.0",
 
 "browser_action": {
@@ -15,3 +15,17 @@
 }
 
 <!doctype html>
+<html>
+    <head>
+        <title>DBS BUTTON</title>
+        <script src="popup.js"></script>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body> 
+        <h1>DBS BUTTON</h1>
+        <a href="https://powerschool.noblenetwork.org/public/"target="_blank">
+        <button type="button" class="btn btn-primary">Primary</button><button id="checkPage">Check this ASAP PLEASE!</button>
+        </a>
+    </body>
+</html>
