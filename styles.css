@@ -1,0 +1,19 @@
+body {
+  background: url('https://s-media-cache-ak0.pinimg.com/736x/a5/27/d9/a527d9425e4b389f0e4c8d8d7ef4c4b4--disney-stich-lilo-stitch.jpg
+') !important;
+}
+ 
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
