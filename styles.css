@@ -1,5 +1,6 @@
+//styles.css
 body {
-  background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important;
+  background: url('http://i.imgur.com/AhFHKDr.gif') !important;
 }
  
 #masthead,
@@ -16,3 +17,5 @@ body {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+
+
