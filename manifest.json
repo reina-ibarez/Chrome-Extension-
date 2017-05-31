@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": " UNICORNS  ",
+  "name": "UNICORNS",
   "description": "AMAZING",
   "version": "1.0",
     "background": {
@@ -9,10 +9,10 @@
     },
     "content_scripts": [
         {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": ["jquery-3.2.1.min.js", "content.js"]
+            "css":["styles.css"],
+            "js": ["jquery-3.2.1.min.js", "content.js"],
+            "matches": [        "https://www.google.com/"
+            ]
         }
     ],
   "browser_action": {
@@ -23,4 +23,3 @@
    "activeTab"
    ]
 }
-
