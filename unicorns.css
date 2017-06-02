@@ -1,7 +1,10 @@
 .uni {
     font-size: 30px;
-    color: yellow;
-    background-color: firebrick;
-    font-family: fantasy;
+    background-color: skyblue;
+    font-family: cursive;
     border-radius: 20%;
+}
+
+.uni a {
+    color: floralwhite;
 }
